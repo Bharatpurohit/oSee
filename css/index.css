@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    clear: both;
+}
+
+.main-box {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+/* side-bar */
+.sidebar-content {
+    width: 15%;
+    background-color: #dee2e6;
+    padding: 15px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    float: left;
+
+}
+
+.sidebar {
+    font-size: 19px;
+    font-family: "DM Sans", sans-serif;
+    padding: 2px;
+    box-sizing: border-box;
+
+    /* position: relative; */
+}
+
+.sidebar p {
+    margin-top: 50px;
+}
+
+.side-wrapper {
+    padding: 20px 0px;
+}
+
+.side-title {
+    color: #808191;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 25px;
+}
+
+.sidebar a {
+    width: 145px;
+    height: 30px;
+    text-decoration: none;
+    outline: 0;
+    /* align-items: center; */
+}
+
+.sidebar .home i {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    background-color: #1f1c2e;
+    line-height: 3px;
+
+}
+
+.sidebar .home span {
+    margin-left: 15px;
+    color: #2f2f33;
+
+}
+
+.sidebar i {
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
+    color: #808191;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar span {
+    margin-left: 15px;
+    color: #808191;
+}
+
+.sidebar .movies:hover i {
+    background-color: #1f1c2e;
+    color: white;
+}
+
+.sidebar .movies:hover span {
+    color: #1f1c2e;
+}
+
+.sidebar .tv-shows:hover i {
+    background-color: #1f1c2e;
+    color: white;
+}
+
+.sidebar .tv-shows:hover span {
+    color: #1f1c2e;
+}
+
+.sidebar .login-view a {
+    font-size: 12px;
+    color: #808191;
+    line-height: 50px;
+}
+
+.main-container {
+    width: 85%;
+    margin: auto;
+    float: right;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+/* header */
+.header {
+    width: 100%;
+    height: 80px;
+    padding: 40px 60px;
+    box-sizing: border-box;
+    background-color: hsla(0, 0%, 100%, .75);
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.search {
+    width: 500px;
+    height: 35px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.272);
+    float: left;
+    margin-top: -15px;
+}
+
+::placeholder {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.search input {
+    border: none;
+    margin: 10px 20px;
+}
+
+.search i {
+    float: right;
+    margin: 10px 20px;
+    color: #808191;
+}
+
+.user-setting {
+    float: right;
+    margin-top: -15px;
+}
+
+.sign-up {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.58);
+    color: #808191;
+    font-size: 10px;
+    float: left;
+    margin: 0px 10px;
+
+}
+
+.sign-up i {
+    padding: 10px;
+}
+
+.notify {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.58);
+    color: #808191;
+    font-size: 15px;
+    color: blue;
+    float: right;
+    float: left;
+    margin: 0px 10px;
+}
+
+.notify i {
+    padding: 8px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: "DM Sans", sans-serif;
+    margin: 15px 0px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "DM Sans", sans-serif;
+    margin: 10px 0;
+    color: #2f2f33;
+    font-weight: 400;
+}
+
+.left {
+    width: 800px;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.left .left-info {
+    width: 100%;
+    height: 40vh;
+    margin: auto;
+    background-color: #31aabc;
+    background-image: url(../img/bgimage1.jpg);
+    background-size: 20% 100%;
+    background-position: 90% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+}
+
+.left-info p {
+    color: white;
+    width: 40%;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.txt img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 40px;
+    float: left;
+}
+
+.left-info .txt span {
+    color: white;
+    font-size: 20px;
+    padding-top: 40px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+.left-info .txt i {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+.btn {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    position: absolute;
+    right: 20%;
+    top: 80%;
+}
+
+.btn1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    position: absolute;
+    right: 7%;
+    top: 80%;
+
+}
+
+.right {
+    width: 400px;
+    margin: auto;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.right .right-info {
+    width: 100%;
+    height: 40vh;
+    margin: auto;
+    background-color: #31aabc;
+    background-image: url(../img/bgimag2.jpg);
+    background-size: 60% 90%;
+    background-position: 80% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+}
+
+.right-info p {
+    color: white;
+    width: 80%;
+    padding-top: 50px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.txt1 span {
+    color: white;
+    font-size: 20px;
+    padding-top: 40px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+.txt1 i {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+.btn2 {
+    width: 80px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    position: absolute;
+    right: 10%;
+    top: 85%;
+}
+
+.movie {
+    width: 1300px;
+    margin: auto;
+}
+
+.card {
+    width: 184.6153px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+.card-img img:hover {
+    transform: scale(1.09);
+    border: 1px solid;
+}
+
+.card-detail {
+    width: 100%;
+    margin: auto;
+}
+
+.card-detail p {
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.card-detail span {
+    color: rgba(87, 87, 87, 0.756);
+    line-height: 40px;
+}
+
+.card-detail i {
+    color: orange;
+    font-size: 10px;
+    /* padding: 0px 5px; */
+
+}
+
+.card-detail button {
+    color: rgba(87, 87, 87, 0.848);
+    border-radius: 5px;
+    border: 1px solid rgba(87, 87, 87, 0.848);
+    /* background-color: rgba(203, 203, 203, 0.756); */
+}
+
+.avtar {
+    background-image: url(../img/bgimag3.jpg);
+    width: 100%;
+    height: 30vh;
+    margin: auto;
+    background-color: #31aabc;
+    background-size: 25%;
+    background-position: 90% 5%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+}
+
+.avtar-info p {
+    color: white;
+    width: 30%;
+    padding-top: 30px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.avtar-info .txt1 span {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 30px;
+
+}
+
+.avtar-info .txt1 i {
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+
+}
+
+.avtar-info .btn2 {
+    width: 80px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    position: absolute;
+    right: 5%;
+    top: 75%;
+}

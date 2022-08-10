@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* body {
+    background-color: brown;
+    font-size: 100px;
+    font-family: "DM Sans", sans-serif;
+    /* text-align: center; */
+/* transition: 2s; */
+/* margin-top: 300px; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    clear: both;
+}
+
+#p {
+    font-size: 100px;
+    /* height: 50px; */
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    margin-top: 300px;
+    background-color: aqua;
+    transition: 2s;
+
+}
+
+#p:hover {
+    transform: scale(1.2);
+    /* padding: 0 50px;
+    box-sizing: border-box; */
+}
+
+.main-box {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+/* side-bar */
+.sidebar-content {
+    width: 15%;
+    background-color: #dee2e6;
+    padding: 15px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    float: left;
+
+}
+
+.sidebar {
+    font-size: 19px;
+    font-family: "DM Sans", sans-serif;
+    padding: 2px;
+    box-sizing: border-box;
+
+    /* position: relative; */
+}
+
+.sidebar p {
+    margin-top: 50px;
+}
+
+.side-wrapper {
+    padding: 20px 0px;
+}
+
+.side-title {
+    color: #808191;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 25px;
+}
+
+.sidebar a {
+    width: 145px;
+    height: 30px;
+    text-decoration: none;
+    outline: 0;
+    /* align-items: center; */
+}
+
+.sidebar .home i {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    background-color: #1f1c2e;
+    line-height: 3px;
+
+}
+
+.sidebar .home span {
+    margin-left: 15px;
+    color: #2f2f33;
+
+}
+
+.sidebar i {
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
+    color: #808191;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar span {
+    margin-left: 15px;
+    color: #808191;
+}
+
+.sidebar .movies:hover i {
+    background-color: #1f1c2e;
+    color: white;
+}
+
+.sidebar .movies:hover span {
+    color: #1f1c2e;
+}
+
+.sidebar .tv-shows:hover i {
+    background-color: #1f1c2e;
+    color: white;
+}
+
+.sidebar .tv-shows:hover span {
+    color: #1f1c2e;
+}
+
+.sidebar .login-view a {
+    font-size: 12px;
+    color: #808191;
+    line-height: 50px;
+}
+
+.main-container {
+    width: 85%;
+    margin: auto;
+    float: right;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    padding: 40px 60px;
+    box-sizing: border-box;
+    background-color: hsla(0, 0%, 100%, .75);
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.user-setting {
+    float: right;
+    margin-top: -15px;
+}
+
+.sign-up {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.58);
+    color: #808191;
+    font-size: 10px;
+    float: left;
+    margin: 0px 10px;
+
+}
+
+.sign-up i {
+    padding: 10px;
+}
+
+.notify {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.58);
+    color: #808191;
+    font-size: 15px;
+    color: blue;
+    float: right;
+    float: left;
+    margin: 0px 10px;
+}
+
+.notify i {
+    padding: 8px;
+}
+
+.txt-control {
+    width: 100%;
+    margin: auto;
+
+}
+
+.txt-control .foam {
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.txt-control .foam h1 {
+    font-size: 30px;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+}
+
+.click {
+    width: 40%;
+    height: 30px;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 150px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.373);
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+}
+
+.click img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.click span {
+    color: #808191;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: 1px;
+    float: right;
+    margin-top: -7px;
+}
+
+.email {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.373);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.email i {
+    color: #4784ff;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.email input {
+    border: none;
+    margin-left: 10px;
+    color: #808191;
+}
+
+.password {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.373);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.password i {
+    color: #4784ff;
+    margin: 0px;
+}
+
+.password input {
+    border: none;
+    margin-left: 10px;
+    color: #808191;
+}
+
+.forgot a {
+    font-size: 13px;
+    color: #808191;
+    text-decoration: none;
+    margin-right: 100px;
+    float: right;
+}
+
+.btn {
+    font-size: 15px;
+    color: white;
+    background-color: #4784ff;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    margin: 32px;
+    margin-left: 110px;
+}
+
+.creat {
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    color: rgba(0, 0, 0, 0.676);
+    margin-left: 150px;
+}
+
+.foam .creat a {
+    color: #4784ff;
+    margin-left: 5px;
+    text-decoration: none;
+}
